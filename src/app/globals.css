@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf7f2;
+  --foreground: #1f2937;
+  --primary: #c9a86a;
+  --secondary: #f5e6c8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+.common_heading {
+  color: var(--primary);
+}
+
+input,
+textarea,
+select {
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
