@@ -29,7 +29,7 @@ const slides = [
   },
   {
     image: "/heroimage/heroimg (3).jpeg",
-    title: "Relax • Rejuvenate • Renew",
+    title: "Best spa in goa ",
     subtitle:
       "Escape daily stress and experience complete relaxation with our luxury spa therapies.",
   },
