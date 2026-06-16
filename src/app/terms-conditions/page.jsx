@@ -7,12 +7,12 @@ export default function TermsConditionsPage() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-pink-500 to-pink-400 py-16 text-white">
+      <section className=" py-10 text-pink-700">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h1 className="text-4xl font-bold md:text-5xl">
             Terms & Conditions
           </h1>
-          <p className="mt-4 text-lg text-pink-100">
+          <p className="mt-4 text-lg text-pink-400">
             Please read these terms carefully before using our website
             and spa services.
           </p>

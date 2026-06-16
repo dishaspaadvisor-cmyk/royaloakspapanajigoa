@@ -7,12 +7,12 @@ export default function PrivacyPolicyPage() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-pink-500 to-pink-400 py-16 text-white">
+      <section className=" text-pink-500">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h1 className="text-4xl font-bold md:text-5xl">
             Privacy Policy
           </h1>
-          <p className="mt-4 text-lg text-pink-100">
+          <p className="mt-4 text-lg text-pink-400">
             Your privacy is important to us. Learn how we collect, use, and
             protect your information.
           </p>
