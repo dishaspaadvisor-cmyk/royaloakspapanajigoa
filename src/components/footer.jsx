@@ -210,11 +210,37 @@ export default function Footer() {
           </div>
 
         </div>
+        <div className="mt-12 border-t border-pink-100 pt-6">
+          <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row">
 
-        {/* Bottom Footer */}
-        <div className="border-t border-gray-800 mt-12 pt-6 text-center text-sm">
-          © {new Date().getFullYear()} Royal Oak Spa. All Rights Reserved.
+            <p className="text-sm text-gray-500">
+              © {new Date().getFullYear()}{" "}
+              <span className="font-semibold text-pink-600">
+                Royal Oak Spa
+              </span>
+              . All Rights Reserved.
+            </p>
+
+            <div className="flex items-center gap-6 text-sm">
+              <Link
+                href="/privacy-policy"
+                className="font-medium text-gray-500 transition-all duration-300 hover:text-pink-500"
+              >
+                Privacy Policy
+              </Link>
+
+              <span className="text-pink-300">|</span>
+
+              <Link
+                href="/terms-conditions"
+                className="font-medium text-gray-500 transition-all duration-300 hover:text-pink-500"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
+          </div>
         </div>
+
       </div>
     </footer>
   );

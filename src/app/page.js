@@ -5,12 +5,13 @@ import GallerySection from "./gallery/page";
 import ContactPage from "./contact/page";
 import FAQPage from "./faq/page";
 import OfferCards from "./offer/page";
+import { icons } from "lucide-react";
 
 export const metadata = {
-  title: "Royal Oak Spa Panaji - Best Spa in Panaji Goa",
+  title: "Royal Oak Spa Panaji",
   description:
     "Experience ultimate relaxation and rejuvenation at Royal Oak Spa Panaji, the best spa in Panaji Goa. Indulge in luxurious treatments, expert therapists, and a serene ambiance for your wellness journey.",
-
+  icons:"/favicon/Royal oak pajim fav icon.png",
   keywords: [
     "spa near panaji goa",
     "Best Spa in Panaji Goa",
