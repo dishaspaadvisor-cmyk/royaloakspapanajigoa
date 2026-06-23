@@ -5,7 +5,7 @@ export default function sitemap() {
     {
       url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 1,
     },
     {
@@ -49,6 +49,32 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
+    },
+
+    // Service Pages
+    {
+      url: `${baseUrl}/services/deep-tissue-massage`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/aromatherapy`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/hot-stone-therapy`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/couple-spa`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
   ];
 }

@@ -7,7 +7,7 @@ import FloatingButtons from "./floatingbutton/page";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en "  data-scroll-behavior="smooth">
       <link
         rel="icon"
         href="/favicon/Royal-oak-pajim-fav-icon.png"
